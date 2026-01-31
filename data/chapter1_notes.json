@@ -1,0 +1,128 @@
+[
+  {
+    "chunk_id": "Q_1a_fundamental_unit",
+    "question": "1. Choose the correct options for the following questions.\n\na. Which of the following is a fundamental unit?\ni. newton\nii. pascal\niii. (kilogram)\niv. joule",
+    "answer": "iii. (kilogram)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_1b_velocity_unit",
+    "question": "b. Which of the following physical quantities has the unit ms-1?\ni. acceleration\nii. (velocity)\niii. force\niv. density",
+    "answer": "ii. (velocity)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_1c_derived_unit",
+    "question": "c. Which of the following is a derived unit?\ni. candela\nii. ampere\niii. (joule)\niv. kelvin",
+    "answer": "iii. (joule)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_1d_newton_units",
+    "question": "d. Which of the following units denote Newton?\ni. (kgms-2)\nii. kgm2s-2\niii. kgm-s-2\niv. kgms-1",
+    "answer": "i. (kgms-2)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_2a_joule_reason",
+    "question": "2. Give reason:\n\na. Joule is the derived unit of work.",
+    "answer": "Ans: Joule is the derived unit of work because work is defined as the product of force and displacement, and the unit of force is newton (N) and the unit of displacement is meter (m). The product of newton and meter gives us the unit of work, which is joule (J).",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_2b_controlled_variables_reason",
+    "question": "b. Some variables should be controlled while performing an experiment.",
+    "answer": "Ans: Some variables should be controlled while performing an experiment to ensure that the observed changes or outcomes are due to the specific variables being investigated and not influenced by other factors. By controlling certain variables, scientists can isolate the effects of the variables they are interested in studying and minimize the influence of confounding factors. This helps to establish a cause-and-effect relationship between the variables under investigation.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_2c_v_ut_invalid_reason",
+    "question": "c. v=ut is not a valid relation.",
+    "answer": "Ans: v = ut is not a valid relation because it is missing the necessary mathematical operator. The equal sign (=) is commonly used to indicate equality or assignment of a value, but in this case, it seems that a mathematical operation is intended. If the relation is meant to represent an equation for velocity (v) in terms of initial velocity (u), time (t), and some operation, such as addition or multiplication, the appropriate mathematical symbol needs to be used (e.g., v = u + at or v = u * t).",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4a_unit_definition",
+    "question": "4. Answer the following questions:\n\na. What is a unit?",
+    "answer": "Ans: A unit is a standardized measurement that is used to quantify a physical quantity. It provides a reference for comparing and expressing measurements in a consistent and universally understood manner. Units are typically defined based on agreed-upon standards and conventions.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4b_si_units_list",
+    "question": "b. Write the SI units of mass, temperature, energy, and density.",
+    "answer": "Ans: The SI units (International System of Units) for the given physical quantities are:\nMass: kilogram (kg)\nTemperature: Kelvin (K)\nEnergy: Joule (J)\nDensity: kilogram per cubic meter (kg/m³)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4c_validity_check_procedure",
+    "question": "c. How is the validity of an equation checked? Write an example.",
+    "answer": "Ans: The validity of an equation is checked by ensuring that the units on both sides of the equation are consistent and compatible. The units of each term in the equation must match on both sides. One common approach is to analyze the dimensions and units of each variable involved in the equation. Example: For the equation v = d/t, where v = velocity, d = distance, t = time:\nUnit of v (velocity) = Unit of d (distance) / Unit of t (time)\nThe unit of velocity is meters per second (m/s), distance is meters (m), and time is seconds (s). Therefore, the equation is valid.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4d_pressure_fundamental_units",
+    "question": "d. Mention the fundamental units involved in the unit of pressure.",
+    "answer": "Ans: The unit of pressure involves the fundamental units of force and area:\nForce (F): kilogram (kg), meter (m), second (s)\nArea (A): meter (m), meter (m)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4e_derived_to_fundamental",
+    "question": "e. Find out the fundamental units involved in the given derived unit:\ni. newton (N)\nii. watt (W)\niii. joule (J)\niv. pascal (Pa)",
+    "answer": "Ans: The fundamental units involved in the given derived units are:\ni. Newton (N): kilogram (kg), meter (m), second (s)\nii. Watt (W): kilogram (kg), meter (m), second (s)\niii. Joule (J): kilogram (kg), meter (m), second (s)\niv. Pascal (Pa): kilogram (kg), meter (m), second (s)",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4f_power_pressure_formula_check",
+    "question": "f. Nivaclaimed that an alternative formula for power is P=mv? and the formula of pressure; P=mv/A. Check the validity of given formulae by the analysis of units.",
+    "answer": "Ans: Let’s analyze the validity of the given formulas by checking the consistency of units:\nP = mv (power formula)\nUnit of P (power) = Unit of m (mass) * Unit of v (velocity)\nThe unit of power is typically watt (W), the unit of mass is kilogram (kg), and the unit of velocity is meters per second (m/s). Therefore, the units on both sides of the equation are consistent, and the formula is valid.\nP = mv/A (pressure formula)\nUnit of P (pressure) = Unit of m (mass) * Unit of v (velocity) / Unit of A (area)\nThe unit of pressure is typically pascal (Pa), the unit of mass is kilogram (kg), the unit of velocity is meters per second (m/s), and the unit of area is square meters (m²). Therefore, the units on both sides of the equation are consistent, and the formula is valid.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4g_variables_description",
+    "question": "g. Describe the independent variable, dependent variable and controlled variable with examples.",
+    "answer": "Ans: All these terms are described below;\nIndependent variable: Variable intentionally manipulated or changed by the experimenter.\nDependent variable: Variable measured or observed in response to changes in the independent variable.\nControlled variable: Variables kept constant to prevent influence on outcome.\nExample: Effect of fertilizer on plant growth:\nIndependent variable: Type/amount of fertilizer applied.\nDependent variable: Height/growth rate of plants.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4h_karma_wire_thickness",
+    "question": "h. Karma connected a dry cell to a bulb using a few pieces of wire and lit the bulb. He was curious to know how the thickness of the used wire affects the life span of a dry cell. In this test or experiment, find out the independent variable, dependent variable and controlled variable.",
+    "answer": "Ans: In Karma’s experiment:\nIndependent variable:The thickness of the used wire. Karma intentionally changes the thickness of the wire to see how it affects the life span of the dry cell.\nDependent variable:The life span of the dry cell. This is the variable that Karma is interested in measuring and observing as a response to the changes in the thickness of the wire.\nControlled variables:Karma needs to control other factors that could potentially influence the life span of the dry cell. These may include the type and brand of the dry cell, the type of bulb, the length and material of the wire (except for the thickness), the ambient temperature, and the duration of the experiment. By keeping these variables constant, Karma can isolate the effect of the wire thickness on the life span of the dry cell.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4i_chandani_soil_experiment",
+    "question": "i. Chandani wanted to investigate the effects of substances mixed with the soil on plant growth. She decided to mix lime, urea fertilizer, common salt, and compost manure in the soil. Then she brought a bucket of soil from a nearby field and sieved it. She put that soil equally into 12 uniform-sized pots. Then she mixed two spoons of salt in every three pots, two spoons of urea fertilizer in each of the next three pots, two spoons of table salt in each of the next three pots, and finally, two spoons of compost fertilizer in each of the remaining three pots. She then planted similar seeds of the same plant in every pot and placed them all in a sunny place in the house. She watered all the pots every day. After the plants grew, she measured the height of each plant daily and kept a record.\ni. Identify the independent variable, dependent variable and controlled variable in Chandani’s experiment.\nii. Why did Chandani use 3 pots for each experiment?",
+    "answer": "Ans: In Chandani’s experiment:\ni. Independent variable:The substances mixed with the soil (lime, urea fertilizer, common salt, compost manure). Chandani intentionally chooses and varies the type of substances mixed in the soil to observe their effects on plant growth. Dependent variable:Plant growth, specifically the height of the plants. Chandani measures the height of each plant daily and records it as an indication of their growth. Controlled variables:Type of plant seeds used, amount of soil in each pot, amount of water provided, exposure to sunlight, size and type of pots, location of pots, and duration of the experiment. By controlling these variables, Chandani aims to isolate and observe the specific effects of the substances mixed with the soil on plant growth.\nii. Why did Chandani use 3 pots for each experiment?\nAns: Chandani uses 3 pots for each experiment to increase the reliability and validity of her results. By having multiple pots for each substance, she can compare the average growth of the plants within each group and observe any consistent trends or patterns. This helps to reduce the impact of random variations or outliers in individual pots, providing a more representative and robust analysis of the effects of different substances on plant growth. Additionally, using multiple pots allows Chandani to account for any differences between the pots themselves, such as variations in soil composition or placement within the experimental setup.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4j_subodh_flask_color",
+    "question": "j. Subodh wanted to find out how the colour of an object affects its ability to hold heat. For that, he took four conical flasks and coated the first flask with black coloured enamel. the second with white enamel, the third with green enamel and the fourth with red enamel. Then, he filled all the flasks with water, closed the mouth of each flask tightly with cork and then kept them in the sun. After some time he measured the temperature of water in each flask with the help of a thermometer and noted the readings. Identify the independent variable and dependent variable in Subodh’s experiment. Which variables should be controlled by Subodh?",
+    "answer": "Ans: In Subodh’s experiment:\nIndependent variable:The color of the enamel coating on the conical flasks (black, white, green, red). Subodh intentionally changes the color of the flask’s coating to observe its effect on heat retention.\nDependent variable:The temperature of the water in each flask. Subodh measures the temperature of the water in each flask using a thermometer and records the readings as an indication of heat retention.\nControlled variables:Subodh needs to control other factors that could potentially influence heat retention. These controlled variables may include the type and size of the conical flasks, the volume of water in each flask, the material and thickness of the flask walls, the time of exposure to the sun, the intensity of sunlight, and the ambient temperature. By keeping these variables constant, Subodh aims to isolate and observe the specific effects of the flask’s color on heat retention.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4k_manisha_dog_eating",
+    "question": "k. Manisha wanted to test the eating habits of her dog. She decided to study how the amount of food and the time of giving food affects the speed at which the dog ate. What is wrong with the design of Manisha’s experiment and how can she correct it?",
+    "answer": "Ans: The issue with Manisha’s experiment design is that she is testing two independent variables simultaneously (amount of food and time of giving food) without controlling one variable while studying the other. This can lead to confounding variables and difficulty in attributing the observed effects to specific factors. To correct the design of Manisha’s experiment, she should conduct separate experiments, focusing on one variable at a time while keeping the other constant. For example, in one experiment, she can vary the amount of food given to the dog while keeping the time of giving food constant. In another experiment, she can vary the time of giving food while keeping the amount of food constant. This approach will allow her to systematically examine the individual effects of each independent variable on the dog’s eating speed and draw more reliable conclusions.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "Q_4l_ohm_unit_proof",
+    "question": "l. Prove that: Unit of electric resistance ohm = kgm2s-3A-2",
+    "answer": "Ans: To prove that the unit of electric resistance, ohm (Ω), is equivalent to kgm^2s^-3A^-2, we can break down the units of each term in the equation. The unit of electric resistance, ohm (Ω), is defined as the ratio of voltage (V) to current (A). Mathematically, Ohm’s law states that resistance (R) is equal to voltage divided by current (R = V/I). Let’s break down the units on both sides of the equation:\nOn the left side: Resistance (R) is measured in ohms (Ω).\nOn the right side:\nVoltage (V) is measured in volts (V), which is equivalent to kgm^2s^-3A^-1.\nCurrent (I) is measured in amperes (A).\nNow, let’s substitute the units into Ohm’s law:\nΩ = (kgm^2s^-3A^-1) / A\nSimplifying the equation:\nΩ = kgm^2s^-3A^-2\nTherefore, we have proven that the unit of electric resistance, ohm (Ω), is equivalent to kgm^2s^-3A^-2.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "DIFF_independent_dependent_variable",
+    "question": "3. Differentiate between:\na. Independent variable and dependent variable",
+    "answer": "Ans: The differences between independent and dependent variables are given below:\n| Independent Variable | Dependent Variable |\n| :--- | :--- |\n| The variable that is intentionally manipulated or controlled by the experimenter. | The variable that is measured or observed in response to changes in the independent variable. |\n| Presumed cause or input in a study. | Outcome or result that is measured and studied. |\n| Changes in it are believed to influence the dependent variable. | Expected to be influenced by changes in the independent variable. |\n| Typically plotted on the x-axis of a graph. | Typically plotted on the y-axis of a graph. |",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  },
+  {
+    "chunk_id": "DIFF_fundamental_derived_unit",
+    "question": "b. Fundamental unit and derived unit",
+    "answer": "Ans: The differences between fundamental and derived units are given below:\n| Fundamental Unit | Derived Unit |\n| :--- | :--- |\n| Basic, independent unit of measurement. | Unit derived from fundamental units through mathematical combinations or equations. |\n| Used to express primary physical quantities. | Used to express derived or composite physical quantities. |\n| Not derived from any other units. | Derived from fundamental units (e.g., m/s, N, J). |\n| Examples: meter (m), kilogram (kg), second (s). | Examples: newton (N), joule (J), meter per second (m/s). |",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study", "type": "Notes" }
+  }
+]

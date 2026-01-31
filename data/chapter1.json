@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "01_intro_and_variable_concept",
+    "title": "Introduction to Scientific Study and Variables",
+    "content": "Scientific study involves facts, theories, and experiments to investigate phenomena based on the scientific method. A 'variable' is defined as a causative factor, characteristic, or trait with a direct or indirect relationship to an event. Example: In a wilted plant, the cause (lack of water/sun) is the causative factor, and the wilting is the effect. The task of a scientist is to establish relationships between these physical quantities.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "1-2", "topic": "Scientific Method" }
+  },
+  {
+    "chunk_id": "02_activity_1.1_catapult",
+    "title": "Activity 1.1: Making a Catapult from a Rubber Band",
+    "content": "Materials: 5cm rubber band, 15cm ruler, paper pieces, measuring tape. Method: 1. Fold paper into a cylinder. 2. Hook rubber band on fingers. 3. Stretch the band. 4. Measure extension (start at 4cm). 5. Release and measure distance traveled. 6. Note results. Repeat for extensions of 6cm, 8cm, and 10cm. Mathematical relation: If extension is 'e' and distance is 'x', then x ∝ e.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "2-3", "topic": "Experimentation" }
+  },
+  {
+    "chunk_id": "03_types_of_variables",
+    "title": "Classification of Variables (Independent, Dependent, Controlled)",
+    "content": "1. Independent Variable: The factor manipulated by the researcher (e.g., extension of the rubber band). 2. Dependent Variable: The factor that changes in response and cannot be predicted directly (e.g., distance covered by the paper bullet). 3. Controlled Variable: Factors kept constant to ensure valid results (e.g., thickness of rubber band, size of paper bullet). Example Table: Tap rotation (Independent) vs. Water flow (Dependent) with Water Pressure (Controlled). Rules: Only one independent and one dependent variable should be used in an experiment.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "4-5", "topic": "Variable Types" }
+  },
+  {
+    "chunk_id": "04_units_fundamental_derived",
+    "title": "Types of Units: Fundamental and Derived",
+    "content": "Fundamental Units: Independent units that cannot be resolved further (Length: meter, Mass: kilogram, Time: second, Temperature: kelvin, Luminous Intensity: candela, Electric Current: ampere, Amount of substance: mole). Derived Units: Composed of two or more fundamental units (e.g., Density = kg/m³, Force = Newton/kgms⁻², Pressure = Pascal). Difference: Fundamental units do not depend on others, while derived units do.",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "7-9", "topic": "Measurement Units" }
+  },
+  {
+    "chunk_id": "05_derived_units_catalog",
+    "title": "Catalog of Derived Physical Quantities",
+    "content": "Table of Units: 1. Area (l x b = m²). 2. Volume (l x b x h = m³). 3. Density (mass/volume = kg/m³). 4. Velocity (displacement/time = m/s). 5. Acceleration (velocity/time = m/s²). 6. Force (mass x acceleration = Newton). 7. Pressure (force/area = Pascal). 8. Work (force x distance = Joule). 9. Power (work/time = Watt). 10. Frequency (1/time = Hz). Analysis: Area is m² because it is formed by two fundamental units (m x m).",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "7, 9", "topic": "Physics Formulas" }
+  },
+  {
+    "chunk_id": "06_unitwise_equation_analysis",
+    "title": "Analysis of Unitwise Equations and Validity",
+    "content": "Validity Rule: Units on both sides of an equation must be the same. Example: s = v x t is valid (m = m/s * s), but s = v/t is invalid (m ≠ m/s²). Addition/Subtraction Rule: Possible only if quantities have the same fundamental units (e.g., u + v is possible, but s + at is not). Testing Equations: (i) v² = u² + 2as is valid. (ii) s = ut + 1/2 a²t is invalid because units do not match (m ≠ m + m²s⁻³).",
+    "metadata": { "class": "10", "subject": "Science", "Unit_index": 1, "Unit_name": "Scientific study",  "type": "Book", "pages": "9-10", "topic": "Dimensional Analysis" }
+  }
+]
