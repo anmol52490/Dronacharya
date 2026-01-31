@@ -42,12 +42,13 @@ class ClaimVerdict(BaseModel):
     status: Literal["Full Match", "Partial Match", "Alternative Correct", "Incorrect"]
     marks_awarded: float
     reasoning: str = Field(..., description="Detailed explanation: Why does this claim match (or not match) the rubric item? Quote the student text.")
+    scoring_logic_summary: str = Field(..., description="A step-by-step text summary of how the score was calculated (e.g., 'Base marks: 2.0, Alternative marks: +1.0, Deductions: -0.5 for units').")
+
 
 class GradingReport(BaseModel):
     student_id: str = "student_01"
     
     # --- NEW COMPONENT ---
-    scoring_logic_summary: str = Field(..., description="A step-by-step text summary of how the score was calculated (e.g., 'Base marks: 2.0, Alternative marks: +1.0, Deductions: -0.5 for units').")
     # ---------------------
     
     final_score: float
@@ -59,6 +60,17 @@ class GradingReport(BaseModel):
     feedback_for_student: str
 # --- API Request Models ---
 
+
+class ConsensusReport(BaseModel):
+    """The Master Report containing all 3 parallel evaluations."""
+    consensus_score: float = Field(..., description="The average score derived from the runs.")
+    score_variance: float = Field(..., description="The difference between the highest and lowest score.")
+    hitl_flag: bool
+    
+    # This list holds the full detailed report for EACH of the 3 runs
+    individual_runs: List[GradingReport]
+
+    
 class RubricRequest(BaseModel):
     """Input for Step 1: Generating the Rubric"""
     question: str

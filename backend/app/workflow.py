@@ -3,7 +3,7 @@ from typing import TypedDict, Optional
 from langgraph.graph import StateGraph, END
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from .schema import Rubric, GradingReport, RubricRequest
+from .schema import Rubric, GradingReport, RubricRequest, ConsensusReport
 from .retriever import get_relevant_context
 
 # Config
@@ -24,8 +24,10 @@ class RubricState(TypedDict):
     rubric: Optional[Rubric]
 
 class EvalState(TypedDict):
-    inputs: dict # Contains 'student_ans' and 'rubric' object
-    final_report: Optional[GradingReport]
+    inputs: dict
+    rubric: Optional[Rubric]
+    # Change this from GradingReport to ConsensusReport
+    final_report: Optional[ConsensusReport]
 
 # --- NODES ---
 
@@ -86,8 +88,7 @@ def rubric_generator_node(state: RubricState):
 
 
 def evaluator_node(state: EvalState):
-    logger.info("⚖️ Evaluating with Precision...")
-    
+    logger.info("⚖️ Evaluating (3 Parallel Runs)...")    
     # 1. Recover the Rubric Object from the dictionary
     rubric_dict = state["inputs"]["rubric"]
     rubric = Rubric(**rubric_dict)
@@ -154,17 +155,18 @@ def evaluator_node(state: EvalState):
     avg_score = sum(scores) / 3
     
     # Calculate Variance
-    max_diff = max(scores) - min(scores)
-    is_flagged = max_diff > 0.5 
+    variance = max(scores) - min(scores)
+    is_flagged = variance > 2
 
     # Choose the report that is closest to the average (most representative)
-    final_report = min(reports, key=lambda x: abs(x.final_score - avg_score))
-    
-    # Set Flags
-    final_report.hitl_flag = is_flagged
-    final_report.confidence_score = 1.0 if not is_flagged else 0.5
+    consensus = ConsensusReport(
+        consensus_score=round(avg_score, 2),
+        score_variance=round(variance, 2),
+        hitl_flag=is_flagged,
+        individual_runs=reports  # <--- WE SAVE ALL 3 HERE
+    )
 
-    return {"final_report": final_report}
+    return {"final_report": consensus}
 
 # --- 1. Rubric Graph ---
 rubric_workflow = StateGraph(RubricState)

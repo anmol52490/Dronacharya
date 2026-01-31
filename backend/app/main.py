@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from .schema import RubricRequest, EvaluationRequest, GradingReport, Rubric
+from .schema import RubricRequest, EvaluationRequest, GradingReport,Rubric,ConsensusReport
 from .workflow import rubric_app, eval_app
 
 app = FastAPI(title="DrnaAI Minimalist Engine", version="3.0")
@@ -17,7 +17,7 @@ def generate_rubric(request: RubricRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/evaluate", response_model=GradingReport)
+@app.post("/evaluate", response_model=ConsensusReport)
 def evaluate_student(request: EvaluationRequest):
     """
     Step 2: Takes { "student_ans": "...", "rubric": { ... } }
